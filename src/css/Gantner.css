@@ -6,13 +6,36 @@
     display: inline-block;
     width:50%;
     overflow:auto;
-
 }
 .SVG_TABLE{
     position:absolute;
+    border-collapse:collapse;
 }
+.data tr, .SVG_TABLE tr{
+    height:35px;
+    border:1px solid silver;
+}
+
+
 
 .SVG{
-    background-color:transparent;border:1px solid red;position:absolute;
-
+    width:calc(47 * 31px);
 }
+
+
+
+.svgCtn {
+    background-color:transparent;
+    top:66;
+    right:0;
+    position:absolute;
+    width:50%;
+    overflow: auto;
+    scrollbar-width: none; /* Firefox esetén */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+  
+  .svgCtn::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Edge */
+  }
+  
