@@ -1,0 +1,18 @@
+.cal-day{
+    min-width:45px;
+}
+
+.SVG_TABLE, .data{
+    display: inline-block;
+    width:50%;
+    overflow:auto;
+
+}
+.SVG_TABLE{
+    position:absolute;
+}
+
+.SVG{
+    background-color:transparent;border:1px solid red;position:absolute;
+
+}
