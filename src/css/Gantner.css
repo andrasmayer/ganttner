@@ -15,14 +15,9 @@
     height:35px;
     border:1px solid silver;
 }
-
-
-
 .SVG{
-    width:calc(47 * 31px);
+    min-width:calc(47 * 200px);
 }
-
-
 
 .svgCtn {
     background-color:transparent;
@@ -33,9 +28,33 @@
     overflow: auto;
     scrollbar-width: none; /* Firefox esetén */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  }
+}
   
-  .svgCtn::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari, Edge */
-  }
-  
+.svgCtn::-webkit-scrollbar {
+display: none;  /* Chrome, Safari, Edge */
+}
+
+.row-color{
+    border:none;
+    width:25px;
+    height:25px;
+    border-radius:25px;
+    background-color:#ccc;
+}
+
+.controls-view{
+    z-index:1000;
+    position:fixed;
+    top:10;
+    left:47.7%;
+}
+.controls-view button{
+    background-color:#4287f5;
+    color:white;
+    border:none;
+    font-size:25px;
+    width:35px;
+}
+.controls-view .center{
+    background-color:#e3a019;
+}

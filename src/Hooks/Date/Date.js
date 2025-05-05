@@ -18,9 +18,6 @@ export const dateFormat = (e) =>{
     monthNameShort = monthNameShort.split(monthNameShort[0]).join(monthNameShort[0].toUpperCase())
     let monthNameLong = e.toLocaleDateString(navigator.language,{ month: "long" }).split(".").join("")
     monthNameLong = monthNameLong.split(monthNameLong[0]).join(monthNameLong[0].toUpperCase())
-
-
-
     return({
         date:`${yy}-${mm}-${dd}`,
         year:yy,
